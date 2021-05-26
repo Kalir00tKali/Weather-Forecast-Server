@@ -1,5 +1,5 @@
 # Weather Forecast Server
-Pizza bot is a project created by me to demonstrate the work of such services in telegram. The result is a small online store for ordering pizza. The principle of operation is very similar to my old project (Russian online store), but this time instead of automatic payment of the order, the method with the operator and technical support is applied.
+The usual server on Flask (Python) for weather forecasting. Is the result of a completed task.
 
 
 ## Required
@@ -8,6 +8,5 @@ Pizza bot is a project created by me to demonstrate the work of such services in
 
 ## How to use
 * Install the script
-* Edit `token` and `admin_id` in config.py
-* [Download Telegram](https://desktop.telegram.org/)
-* Launch the bot!
+* Edit `city_id` and `apikey`
+* Launch the server!
