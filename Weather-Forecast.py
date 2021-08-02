@@ -1,15 +1,13 @@
-#Production by Famaxth
-#Telegram - @famaxth
-
+# - *- coding: utf- 8 - *-
 
 from datetime import datetime
 
 from flask import Flask 
-
 from req import get_weather
 
-city_id = 'id'
-apikey = 'text'
+
+city_id = "id"
+apikey = "text"
 
 app = Flask(__name__) 
 
